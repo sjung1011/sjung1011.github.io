@@ -1,3 +1,66 @@
-<!doctype html><meta charset="utf-8"><title>Research — Seojin Jung</title>
-<h1>Research</h1>
-<p>Working papers and abstracts will appear here.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research — Seojin Jung</title>
+  <style>
+    :root { --maxw: 920px; }
+    body { margin:0; padding:0 16px 40px; line-height:1.6;
+           font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Noto Sans"; color:#111; }
+    header, main, footer { max-width: var(--maxw); margin: 24px auto 0; }
+    nav { display:flex; gap:18px; font-weight:600; margin-bottom:10px; }
+    nav a { text-decoration:none; color:#111; } nav a:hover { text-decoration:underline; }
+    .card { padding:28px; border:1px solid #eee; border-radius:16px; box-shadow:0 2px 10px rgba(0,0,0,.03); }
+    h1 { margin:0 0 12px; font-size:28px; }
+    h2 { margin:20px 0 8px; font-size:20px; }
+    ul { margin: 8px 0 0 18px; }
+    .paper-list li { margin: 6px 0; }
+    .sep { padding: 0 6px; color:#888; }
+    footer { color:#777; font-size:14px; margin-top:24px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/research/">Research</a>
+    <a href="https://github.com/sjung1011?tab=repositories" target="_blank" rel="noopener" aria-label="Code (opens in new tab)">Code ↗</a>
+    <a href="/files/CV_SeojinJung.pdf">CV</a>
+  </nav>
+</header>
+
+<main class="card">
+  <h1>Research</h1>
+
+  <section>
+    <h2>Working Papers</h2>
+    <ul class="paper-list">
+      <li>
+        <strong>Paper 1</strong>
+        <span class="sep">·</span>
+        <a href="/files/paper1.pdf" target="_blank" rel="noopener">PDF</a>
+        <span class="sep">·</span>
+        <a href="/files/paper1_appendix.pdf" target="_blank" rel="noopener">Online appendix</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Work in Process</h2>
+    <ul class="paper-list">
+      <li>
+        <strong>Paper 2</strong>
+        <span class="sep">·</span>
+        <a href="/files/paper2.pdf" target="_blank" rel="noopener">PDF</a>
+        <span class="sep">·</span>
+        <a href="/files/paper2_appendix.pdf" target="_blank" rel="noopener">Online appendix</a>
+      </li>
+    </ul>
+  </section>
+</main>
+
+<footer>© <span id="y"></span> Seojin Jung</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
